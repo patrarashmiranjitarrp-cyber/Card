@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent{
+    width: 53%;
+    height: 550px;
+    background-color: #dadada;
+    color: white;
+    margin: 47px auto;
+    padding: 76px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+}
+.card{
+    width: 190px;
+    height: 190px;
+    /* border: 1px solid red; */
+    background-color: #f08080;
+    border-radius: 20px;
+    padding: 10px;
+}
+.card h2{
+  color: black;
+  font-weight: 900;
+}
+.card p{
+  color: rgba(0, 0, 0, 0.953);
+  font-size: 12px;
+  padding-top: 7px;
+}
+.logo img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+ 
+}
+.logo{
+  display: flex;
+  padding: 3pc 0 0 6pc;
+  gap: 13px;
+  
+}
+.count{
+   width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  
+}
+.count h4{
+   padding: 6px;
+}
