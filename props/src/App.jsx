@@ -60,7 +60,16 @@ const App=()=>{
 return (
     <div className="parent">
       {jobCards.map(function(job,idx){
-        return <Card title1={job.title1} title2={job.title2} date={job.date} img={job.image} count={job.count} bg={job.bgColor}/>
+      return (<Card
+    key={idx}
+    title1={job.title1}
+    title2={job.title2}
+    date={job.date}
+    img={job.image}
+    count={job.count}
+    bg={job.bgColor}
+  />
+)
 
       })}
     </div>
